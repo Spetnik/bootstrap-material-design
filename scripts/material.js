@@ -318,7 +318,7 @@
         this.attachAutofillEventHandlers();
       }
 
-      if (document.arrive && this.options.arrive) {
+      if ($document.arrive && this.options.arrive) {
         if ($.fn.ripples && this.options.ripples) {
           $document.arrive(this.options.withRipples, function () {
             $.material.ripples($(this));
